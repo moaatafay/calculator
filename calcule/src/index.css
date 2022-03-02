@@ -1,0 +1,54 @@
+
+
+
+.navbar{
+  
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4,60px);
+  grid-template-rows: repeat(6,60px);
+  background-color: black;
+  align-content: center;
+  border-radius: 5px;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  padding: 10px;
+  
+}
+.out{
+  grid-column: 1/5;
+  font-size: 30px;
+  color: white;
+  border-color: white solid;
+}
+.clear{
+  grid-column: 1/3;
+  font-size: 20px;
+}
+.equal{
+  grid-column: 3/5;
+}
+.effet{
+  border-radius: 5px;
+}
+
+
+.ef {
+  background-color: aqua;
+  border: none;
+
+}
+.wh{
+  color: white;
+}
+.num{
+    color:white;
+    background-color: gray;
+    border: none;
+}
+.out{
+  border: none;
+  background-color: black;
+}
